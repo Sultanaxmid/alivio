@@ -100,3 +100,70 @@ body {
 .button:active {
     background-color: #01845E;
 }
+
+.first__mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 768px;
+    }
+
+    .header {
+        height: 128px;
+    }
+
+    .first__nav {
+        margin-top: 17px;
+        width: 100%;
+    }
+
+    .first__nav ul li {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper {
+        width: 290px;
+    }
+
+    .header {
+        height: 357px;
+    }
+
+    .first__logotype,
+    .first__nav,
+    .first__login {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .first__login .link,
+    .first__nav {
+        display: none;
+    }
+
+    .first__mobile {
+        display: block;
+        margin-top: 24px;
+    }
+
+    .first__mobile ul {
+        list-style: none;
+    }
+
+    .first__login .button {
+        margin-top: 40px;
+    }
+
+    .first__mobile ul li {
+        margin-bottom: 10px;
+    }
+
+    .first__mobile ul li:last-of-type {
+        margin-bottom: 0;
+    }
+}
