@@ -198,7 +198,7 @@ h3 {
 /* Блок с задним фоном */
 
 .first__background {
-    background-image: url('../images/bg.jpg');
+    background-image: url('/alivio/bg.jpg');
 }
 
 .first__content {
@@ -216,4 +216,98 @@ h3 {
 
 .first__content .button {
     margin-top: 60px;
+}
+
+.works {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.works_left, .works_right {
+    width: 50%;
+    float: left;
+}
+
+.works_left {
+    padding-right: 52px;
+}
+
+.works_left h2 {
+    color: #01996D;
+}
+
+.works_subtitle {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.works_right p {
+    margin-top: 40px;
+}
+
+.cards {
+    overflow: hidden;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.card {
+    width: 390px;
+    float: left;
+    margin-right: 100px;
+}
+
+.card:last-of-type {
+    margin-right: 0;
+}
+
+.card_number {
+    font-family: 'Roboto Slab', serif;
+    font-size: 144px;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.card h3 {
+    margin-top: -22px;
+}
+
+.card p {
+    margin-top: 10px;
+    line-height: 150%;
+}
+
+.card img {
+    margin-top: 40px;
+    border-radius: 17px;
+    max-width: 100%;
+}
+
+.history {
+    margin: 150px 0;
+    background-color: #245852;
+    padding: 150px 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+.history_left, .history_right {
+    width: 50%;
+    float: left;
+}
+
+.history_right img {
+    max-width: 100%;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.history p {
+    margin-top: 24px;
+}
+
+.history .button {
+    margin-top: 50px;
 }
