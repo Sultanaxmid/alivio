@@ -311,3 +311,52 @@ h3 {
 .history .button {
     margin-top: 50px;
 }
+
+.Product {
+    margin: 150px 0;
+    background-color: #fff;
+    padding: 150px 0;
+    overflow: hidden;
+    color: #01996D;
+    ;
+}
+
+.Product_right p {
+    color: black;
+}
+
+.Product_subtitle {
+    color:black;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.Product_right a {
+    color: #fff;
+}
+
+.Product_left, .Product_right {
+    width: 50%;
+    float: right;
+}
+
+.Product_left img {
+    max-width: 100%;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.Product p {
+    margin-top: 24px;
+}
+
+.Product .button {
+    margin-top: 50px;
+}
+
+.Product_right {
+    padding-left: 150px; 
+}
